@@ -56,6 +56,12 @@ select:focus {
   outline: none;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 input[type="radio"] {
   scale: 1.5;
   border: 1px solid #ced4da;
