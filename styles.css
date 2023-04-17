@@ -1,3 +1,4 @@
+/* Reset Browser default styles */
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +13,7 @@ html, body {
   font-size: 18px;
 }
 
+/* Background-Image on body */
 body::before {
   content: '';
   position: fixed;
@@ -27,12 +29,14 @@ body::before {
   background-position: center;
 }
 
+/* Inner-Container width */
 #inner-container {
   max-width: 720px;
   min-width: 418px;
   margin: 50px auto;
 }
 
+/* Header with a Heading and Description */
 header {
   text-align: center;
 }
@@ -52,11 +56,13 @@ header p {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
+/* Form */
 form {
   padding: 40px;
   background-color: rgba(27, 27, 50, 0.8);
 }
 
+/* Input Styles */
 input[type="text"], 
 input[type="email"], 
 input[type="number"], 
@@ -94,6 +100,7 @@ input[type="checkbox"] {
   margin-right: 5px;
 }
 
+/* Textarea for comments */
 textarea {
   width: 100%;
   height: 125px;
@@ -113,10 +120,12 @@ input[type="submit"] {
   border-radius: 2px;
 }
 
+/* Container for Radio Buttons */
 .radio-btn-container {
   margin: 10px 0;
 }
 
+/* Container for Favorite Feature Dropdown */
 .favorite-feature-dropdown {
   margin: 40px 0 20px;
 }
@@ -125,6 +134,7 @@ input[type="submit"] {
   margin: 15px 0;
 }
 
+/* Footer */
 #footer {
   margin: 40px 0;
 }
