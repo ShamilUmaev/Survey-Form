@@ -71,3 +71,7 @@ input[type="radio"] {
 .radio-btn-container {
   margin: 10px 0;
 }
+
+.favorite-feature-dropdown {
+  margin: 40px 0 20px;
+}
