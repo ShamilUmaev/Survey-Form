@@ -27,6 +27,12 @@ body::before {
   background-position: center;
 }
 
+#inner-container {
+  max-width: 720px;
+  min-width: 418px;
+  margin: 50px auto;
+}
+
 header {
   text-align: center;
 }
