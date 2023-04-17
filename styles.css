@@ -55,3 +55,13 @@ input[type="number"]:focus,
 select:focus {
   outline: none;
 }
+
+input[type="radio"] {
+  scale: 1.5;
+  border: 1px solid #ced4da;
+  margin-right: 5px;
+}
+
+.radio-btn-container {
+  margin: 10px 0;
+}
