@@ -82,6 +82,16 @@ textarea {
   font-size: 16px;
 }
 
+input[type="submit"] {
+  width: 100%;
+  padding: 13px 0;
+  font-size: 16px;
+  color: white;
+  background-color: #37af65;
+  border: 1px solid #37af65;
+  border-radius: 2px;
+}
+
 .radio-btn-container {
   margin: 10px 0;
 }
