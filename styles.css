@@ -8,9 +8,15 @@
 html, body {
   min-width: 100%;
   min-height: 100%;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
   font-family: 'Poppins', sans-serif;
   color: #f3f3f3;
-  font-size: 18px;
 }
 
 /* Background-Image on body */
